@@ -5,7 +5,7 @@
 * <code>path1</code>到<code>pathN</code> 配置推送目录 后面的数字分别对应三个推送时间段每个目录的推送数量 单次推送数量不能超过2000
 * 程序运行后，增加删除配置文件不影响程序运行，可以直接修改配置文件。建议在本地修改好后上传到服务器
 * 支持https
-* 支持自动生成域名配置文件，设置域名在<code>model/domain.txt</code>
+* 支持自动生成域名配置文件 create_config.py，设置域名在<code>model/domain.txt</code>
 * 配置文件模型在<code>model/model.ini</code> 生成目录为<code>config_file</code> 请自行将配置文件转移到<code>config</code>目录下
 * 随机自动生成推送时间
        
